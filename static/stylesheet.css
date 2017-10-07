@@ -1,0 +1,26 @@
+body{
+	background-color: #FFFFFF;
+}
+
+.navbar{
+	background-color:#FF6347;
+	height = 300px; 
+}
+
+.navbar-text{
+	color: #FFFFFF;
+	font: 15px arial;
+}
+
+.img-box{
+	padding: 50px;
+}
+
+.shoot-button{
+	background-color: red;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border-style: solid black;
+}
+
