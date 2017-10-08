@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'completion',
+1 verbose cli   '--',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@1.4.21
+3 info using node@v6.11.3
+4 verbose registry.get https://registry.npmjs.org/-/short not expired, no request
+5 error TypeError: w.match is not a function
+5 error     at escape (/usr/share/npm/lib/completion.js:185:10)
+5 error     at /usr/share/npm/lib/completion.js:199:14
+5 error     at Array.map (native)
+5 error     at /usr/share/npm/lib/completion.js:197:19
+5 error     at /usr/share/npm/lib/install.js:40:35
+5 error     at RegClient.get_ (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:130:14)
+5 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:49:12)
+5 error     at /usr/lib/nodejs/graceful-fs/graceful-fs.js:78:16
+5 error     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:447:3)
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Linux 4.12.0-parrot6-amd64
+8 error command "/usr/bin/node" "/usr/bin/npm" "completion" "--" "npm" "install" "node"
+9 error cwd /home/ingochris/Github/nutrifeye/ExpoReactNative/new-project-template-master
+10 error node -v v6.11.3
+11 error npm -v 1.4.21
+12 verbose exit [ 1, true ]
