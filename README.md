@@ -1,15 +1,16 @@
 # nutrifeye
 
-## Inspiration
+You are what you eat... but do you know what that is? 
 
-## What it does
+We have been eating blindly for far too long. **Nutrifeye** lifts the veil by identifying the materials taken in by your body, thanks to the power of Google Cloud Computer Vision and USDA's open source nutritional database.  
 
-## How I built it
+Some challenges encountered were native android development, but by taking a step back, we refactored our approach into an even more efficient and global design. We are proud to say that **Nutrifeye** is now available on all popular HTML5 web platforms: 
 
-## Challenges I ran into
+* Android
+* BlackBerry
+* iPad
+* iPhone
+* Windows Mobile
+* Mac & PC
 
-## Accomplishments that I'm proud of
-
-## What I learned
-
-## What's next for nutrifeye
+What's next for nutrifeye? User Accounts for MacroNutrient Planning!
