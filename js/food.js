@@ -115,16 +115,40 @@ function getNutrients (id) {
         var fat = body.responseJSON.report.foods[0].nutrients[3].value;
         var carbs = body.responseJSON.report.foods[0].nutrients[4].value;
 
+        format({
+            "cal": cal,
+            "fat": fat,
+            "carbs": carbs,
+            "sugar": sugar,
+            "protein": protein
+        })
+
     });
 
 }
 
 
 function format (data) {
-    for (var i = 0; i < data.length; i++) {
-        var divTag = document.createElement('div');
+    var text= '' +
+        'Calories       ' + data.cal + '   kcal\n' +
+        '--------------------------------\n' +
+        'Fat            ' + data.fat + '    g\n' +
+        '--------------------------------\n' +
+        'Carbs          ' + data.carbs + '   g\n' +
+        '--------------------------------\n' +
+        'Sugar          ' + data.sugar + '   g\n' +
+        '--------------------------------\n' +
+        'Protein        ' + data.protein + '    g';
 
-    }
+
+    $('#results').text(text);
+    var evt = new Event('results-displayed');
+    evt.results = text;
+    document.dispatchEvent(evt);
+
+
+
+
 
 }
 
