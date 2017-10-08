@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nutrifeye",
+  "private_key_id": "0a605f17f5441208d63dd6d71abe7257809c2b0f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCX3NLrwOVjQQmc\nZliGnD4hpS2qK4j8HQHphg1nlVEbicLTAdg0LMCOw37UK921InfdYk8rhDAs+Y3H\nxjUBcdTT5bw/2DU+aKkokisWHJU4st0LMG9Ja0A/J/yZev3xrj2qrDD0+as2XdEE\n7wHMKZYq7iX3kw45ea0s7pdOewWhsgIsWdfTDc2uVQPc3FPEkS/0ASnOZh0gXLtI\nyru/IoI2Uv/RG1e5f3H8G7HMgiZZ+QPYFloLyd6izUNf5rmQgfjdtocxqRoGyg89\nn81PAU3OlBK7Rc2Mfq3W+BZNL965hRQyxLMaQXjEbG1XxtUO36e47vAF4b1DppMG\nFbh5ITYVAgMBAAECggEABgzbLl9SBEFME7oUHtDMvORqzFPNslWphNc9Y3oUcCdt\n5qA1L+b0iPuK6wMQYy4LXnuTMeWjUbdjiakA5ZzWYNbPSC/h9ymOS7p/EvNykn61\nxcNZO7CVL671Jlw7D8zkUg9oJ+pmgtT8BdlL1gl2HSG9y35FW87YMmkTCCJomAeC\nyJehwpcd/T9Z9wFQAyUCd+9H3TVBcI42Y2X9xZYVYVHgsezzNWvXb888SlNr4gS6\n5WKqsY8Yr25ZWvDZM9AhO/ygfmaivvuNSZVmt59jmG6hw9VHZ5DFnI3rFwW2dozj\n+1/yjLzzFNI6D4vmuDa+QGKYi5IY9BpuADFRhiC7JQKBgQDQTAvdaJV1/JIALDN5\nBM4C5WOE7ob3XBRnogDsegQ/+Vs+LxY6EOge0XhG7yfRPbErFPBokq7uxyMWYDV8\nb75EC8pmUyGhdxf3e4r5llDumG2Lk3EDQ/Rf2f+0eHa3GuV5Ma0GWBjlSt0UCbNf\nYhfp5gHBQXrmJqNKYJCYaIKUVwKBgQC6pClGLynyRz/ntjiW2x2D1XqpPRo0yVEo\nDxKkRNaXAk+Bucg3Nlyb2nff+bd01aB9RfxEAZtarWIh5B8JfZUIDNywHN/L8D4T\nuZTx0cdLISVuG6tLCLHM1CF/pJoGv4hQ8/YNXYN7rAYYUn3pjgvWnf8ItW+D2ht9\nuhQa7DglcwKBgQDBUIKGduSXftOlc2BGBY6Io4nMOm9qLLwHPhQrZEaDdRIYUS0I\nsN4sk+1Tr+s9R0shF6rS8qeFla1bu+iH11E259ZtRuPkbZoBplfhsX7lIPQx4KG3\nDR9EwhaN0GslHsIvy0mwpJxeWS96xFIDyQ82la+1QucjqGJNyfcIa54cuwKBgQCJ\nqpSXJCq4fj1w2EOdYjm/CDPVqTAvR18JQTTq3au67wVeFn7L2tksTFSnbDYZg4lB\nXeHY96Zzl/gOL4mFIpBOw830SRf6AVaIjhaC1808aVKGiPor+lnLT5z13Z+O4q/V\npl0TNqrJCfXk8tPU9eVdhGSdM9bxVmt4rUwvH5W6aQKBgCVaMMfup0/s41GfleC2\naTNiIxzVHHbiOBy51cTmJZgJP5UJQ0Dxen6kvmgNwWmo3D3jryjjqefCBOYrESAp\nZCc8epmSlWDaxIT3dMz0m4Zmm6hquBNWBQCSue5Jra/vJrnpgpsqoQJs64GK3BTS\nfQVWP2qK4ZGj8d1IX8pJPPeO\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision@nutrifeye.iam.gserviceaccount.com",
+  "client_id": "112015354370725441240",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision%40nutrifeye.iam.gserviceaccount.com"
+}
