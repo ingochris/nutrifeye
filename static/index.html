@@ -1,26 +1,38 @@
-</!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
 <html>
 <head>
-<title>Nutrifeye Home</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"">
-<link rel="stylesheet" href="stylesheet.css"> 
+    <meta charset="UTF-8">
+    <title>Nutrifeye Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/key.js"></script>
+    <script type="text/javascript" src="../js/food.js"></script>
 </head>
 
 <body>
+    <div class=".col-lg- navbar">
+        <p class="navbar-text" align="center"> Nutrifeye </p>
+    </div>
 
-	<div class=".col-lg- navbar">
-		<p class="navbar-text" align="center"> Nutrifeye </p>
-	</div>	
+    <!--Probly should do a 500 x 500 pixel box for computer -->
 
-	<!--Probly should do a 500 x 500 pixel box for computer -->
-	<div class="rounded img-box" align="center">
-		<a href="https://placeholder.com"><img src="http://via.placeholder.com/600x350"></a>
-	</div>
+    <div class="rounded img-box" align="center">
+        <form id="fileform" action="">
+            <input type="file" accept="image/*;capture=camera" name="fileField">
+            <br>
+            <a href="" class="btn btn-danger">
+                <input type="submit" name="submit" value="Submit">
+            </a>
+        </form>
+    </div>
 
-	<div class="img-shooter" align="center"> 
-		<a href="" class="btn btn-danger">Start</a>  
-	</div>
-
+    <code style="white-space:pre" id="results"></code>
 
 </body>
 </html>
