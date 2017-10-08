@@ -13,6 +13,6 @@ Some challenges encountered were native android development, but by taking a ste
 * Windows Mobile
 * Mac & PC
 
-https://github.com/ingochris/nutrifeye/raw/master/static/nutrifeye.png
+![logo](https://github.com/ingochris/nutrifeye/raw/master/static/nutrifeye.png)
 
 What's next for nutrifeye? User Accounts for MacroNutrient Planning!
