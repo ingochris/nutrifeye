@@ -12,4 +12,4 @@
 // limitations under the License.
 
 // Replace with the key you created at https://cloud.google.com/console
-window.apiKey = 'YOUR API KEY HERE';
+window.apiKey = 'AIzaSyDjPqZeT5RIsu8fNSRpczbL4gfq7ZCZt2I';
